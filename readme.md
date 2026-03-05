@@ -31,3 +31,7 @@ Spoiler alert : ça n'a pas une bonne tête.
 Mon plan de base était pas asser poussé, en essayant de le suivre un max, j'ai un code pas du tout maintenable, des méthodes qui font + de 50 lignes alors que j'aurais pu diviser ça en plusieurs méthodes.
 
 Si j'avais eu le temps, je l'aurais refais en js comme vous m'aviez conseillé de le faire, et j'aurais aussi amélioré mon candy crush en ts, mais en ce moment c'est asser compliqué.
+
+## NW.js
+
+Merci à @maximedrn pour m'avoir aider à setup NW.js.

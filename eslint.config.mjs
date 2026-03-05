@@ -33,8 +33,15 @@ const eslintConfig = [
     languageOptions: {
       parser: tsParser,
       parserOptions: {
-        project: "./tsconfig.json", // optional but recommended
+        project: "./tsconfig.json",
         sourceType: "module",
+      },
+    },
+    settings: {
+      "import/resolver": {
+        typescript: {
+          project: "./tsconfig.json",
+        },
       },
     },
     plugins: {
@@ -55,20 +62,7 @@ const eslintConfig = [
       "promise/param-names": "error",
       "promise/catch-or-return": "warn",
       "import/no-unresolved": "error",
-      "import/order": [
-        "warn",
-        {
-          groups: [
-            "builtin",
-            "external",
-            "internal",
-            "parent",
-            "sibling",
-            "index",
-          ],
-          "newlines-between": "always",
-        },
-      ],
+      "import/order": "off",
       "no-restricted-syntax": [
         "error",
         {
